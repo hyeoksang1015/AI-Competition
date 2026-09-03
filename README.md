@@ -1,4 +1,4 @@
-# Medication Detection Project
+[2팀_최종발표자료.pptx](https://github.com/user-attachments/files/31765149/2._.pptx)# Medication Detection Project
 
 ## 🎯 Sprint Goals
 
@@ -76,6 +76,11 @@ Performance is evaluated through a **Leaderboard**.
 ---
 
 ## 📑 Documentation
+
+### Project PPT
+
+[Uploading 2팀_최종발표자료.pptx…]()
+
 
 ### Meeting Notes
 
