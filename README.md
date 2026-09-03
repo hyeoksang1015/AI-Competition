@@ -1,3 +1,66 @@
+Medication Detection Project
+Sprint Goals
+🤝 Grow together by building strong teamwork and collaboration.
+🏆 Deliver the best possible outcome for the team project.
+💻 Develop practical skills as a collaborative AI engineer.
+Team Members
+Minsik Choi
+Dahye Kim
+Soonkyun Kwon
+Haru Kim
+Hyuksang Kwon
+Schedule
+Project Kickoff (OT): First day of the project
+Development Period: From the kickoff until one day before the final presentation
+Final Presentation: Last day of the project
+Project Overview
+
+The goal of this project is to build an object detection model capable of identifying up to four pills in a single image by predicting:
+
+Pill class (medication name)
+Bounding box location
+
+The model performance is evaluated and ranked on the project Leaderboard.
+
+Team Roles
+Role	Responsibility
+Project Manager – Hyuksang Kwon	Managed project planning, collaboration, and overall progress.
+Data Engineers – Haru Kim, Minsik Choi	Collected, cleaned, and preprocessed datasets, and built the data pipeline for model training.
+Model Architect – Soonkyun Kwon	Designed the deep learning architecture and selected the model structure.
+Experimentation Lead – Dahye Kim	Conducted experiments, performed hyperparameter tuning, and evaluated model performance.
+Project Structure
+data/
+│   Raw and processed datasets (CSV files)
+
+notebooks/
+│   Google Colab and Jupyter notebooks for data analysis and experimentation
+
+src/
+│   Reusable preprocessing scripts and model implementation
+
+models/
+│   Saved trained models and checkpoints
+
+app/
+│   Streamlit application for model inference and demonstration
+
+results/
+│   Prediction outputs, evaluation metrics, visualizations, and presentation assets
+Documentation
+Meeting Notes
+
+https://www.notion.so/da1c5d49a2bf4348a4773eb912e8b3dc?v=180b67c8418147279ed1e38552057317&source=copy_link
+
+Project Timeline
+
+https://docs.google.com/spreadsheets/d/1NocuXwYy9Iza1_G1YpYBtd3oT0mFwcIay8Yu1-EcQWU/edit?usp=sharing
+
+Project Proposal
+
+https://app.notion.com/p/38b7c483db0c80a1bc3ddc5eeabee43f?source=copy_link
+
+
+
 # medication Detection project
 
 ## 스프린트의 최종 목표
