@@ -1,63 +1,118 @@
-Medication Detection Project
-Sprint Goals
-🤝 Grow together by building strong teamwork and collaboration.
-🏆 Deliver the best possible outcome for the team project.
-💻 Develop practical skills as a collaborative AI engineer.
-Team Members
-Minsik Choi
-Dahye Kim
-Soonkyun Kwon
-Haru Kim
-Hyuksang Kwon
-Schedule
-Project Kickoff (OT): First day of the project
-Development Period: From the kickoff until one day before the final presentation
-Final Presentation: Last day of the project
-Project Overview
+# Medication Detection Project
 
-The goal of this project is to build an object detection model capable of identifying up to four pills in a single image by predicting:
+## 🎯 Sprint Goals
 
-Pill class (medication name)
-Bounding box location
+- 🤝 Grow together by building strong teamwork and collaboration.
+- 🏆 Deliver the best possible outcome for the team project.
+- 💻 Develop practical skills as collaborative AI engineers.
 
-The model performance is evaluated and ranked on the project Leaderboard.
+---
 
-Team Roles
-Role	Responsibility
-Project Manager – Hyuksang Kwon	Managed project planning, collaboration, and overall progress.
-Data Engineers – Haru Kim, Minsik Choi	Collected, cleaned, and preprocessed datasets, and built the data pipeline for model training.
-Model Architect – Soonkyun Kwon	Designed the deep learning architecture and selected the model structure.
-Experimentation Lead – Dahye Kim	Conducted experiments, performed hyperparameter tuning, and evaluated model performance.
-Project Structure
-data/
-│   Raw and processed datasets (CSV files)
+## 👥 Team Members
 
-notebooks/
-│   Google Colab and Jupyter notebooks for data analysis and experimentation
+- Minsik Choi
+- Dahye Kim
+- Soonkyun Kwon
+- Haru Kim
+- Hyuksang Kwon
 
-src/
-│   Reusable preprocessing scripts and model implementation
+---
 
-models/
-│   Saved trained models and checkpoints
+## 📅 Schedule
 
-app/
-│   Streamlit application for model inference and demonstration
+- **Project Kickoff (OT)**: First day of the project
+- **Development Phase**: From kickoff until one day before the final presentation
+- **Final Presentation**: Last day of the project
 
-results/
-│   Prediction outputs, evaluation metrics, visualizations, and presentation assets
-Documentation
-Meeting Notes
+---
 
-https://www.notion.so/da1c5d49a2bf4348a4773eb912e8b3dc?v=180b67c8418147279ed1e38552057317&source=copy_link
+## 📖 Project Overview
 
-Project Timeline
+This project aims to develop an object detection model capable of identifying **up to four pills** in a single image.
 
-https://docs.google.com/spreadsheets/d/1NocuXwYy9Iza1_G1YpYBtd3oT0mFwcIay8Yu1-EcQWU/edit?usp=sharing
+The model predicts:
 
-Project Proposal
+- Medication name (class)
+- Bounding box location
 
-https://app.notion.com/p/38b7c483db0c80a1bc3ddc5eeabee43f?source=copy_link
+Performance is evaluated through a **Leaderboard**.
+
+---
+
+## 👨‍💻 Team Roles
+
+| Role | Member | Responsibility |
+|------|--------|----------------|
+| Project Manager | Hyuksang Kwon | Managed project planning, collaboration, and overall progress |
+| Data Engineer | Haru Kim, Minsik Choi | Data collection, cleaning, preprocessing, and data pipeline development |
+| Model Architect | Soonkyun Kwon | Designed the deep learning architecture and selected the detection model |
+| Experimentation Lead | Dahye Kim | Conducted experiments, hyperparameter tuning, and model evaluation |
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── data/
+│   └── Raw and processed datasets (CSV files)
+│
+├── notebooks/
+│   └── Google Colab / Jupyter notebooks for experiments
+│
+├── src/
+│   └── Reusable preprocessing and model implementation
+│
+├── models/
+│   └── Trained model checkpoints
+│
+├── app/
+│   └── Streamlit application
+│
+└── results/
+    └── Prediction results, visualizations, CSV files, and presentation assets
+```
+
+---
+
+## 📑 Documentation
+
+### Meeting Notes
+
+<https://www.notion.so/da1c5d49a2bf4348a4773eb912e8b3dc?v=180b67c8418147279ed1e38552057317&source=copy_link>
+
+### Project Timeline
+
+<https://docs.google.com/spreadsheets/d/1NocuXwYy9Iza1_G1YpYBtd3oT0mFwcIay8Yu1-EcQWU/edit?usp=sharing>
+
+### Project Proposal
+
+<https://app.notion.com/p/38b7c483db0c80a1bc3ddc5eeabee43f?source=copy_link>
+
+---
+
+## 📝 Collaboration Logs
+
+- **Dahye Kim**
+  - https://app.notion.com/p/38de155860d080d685eee31489fd955a?source=copy_link
+
+- **Minsik Choi**
+  - https://www.notion.so/38f71fde206b805a8905e19ad9cc686d?source=copy_link
+
+- **Soonkyun Kwon**
+  - https://app.notion.com/p/ai-38fbfd6acdce80d3bd81d60bb89c35f9?source=copy_link
+
+- **Hyuksang Kwon**
+  - https://app.notion.com/p/395a15136d7e809a8693deb2d9703464?source=copy_link
+
+- **Haru Kim**
+  - https://app.notion.com/p/39da720ee85080baa562d452373723c0?source=copy_link
+
+---
+
+## 📊 Presentation
+
+https://www.miricanvas.com/v2/ko/design2/08e038fa-a105-4214-81cd-9efb7a00c867?sheetW=MTkyMA%3D%3D&sheetH=MTA4MA%3D%3D&templateTypeId=cHJlc2VudGF0aW9u&templateIdx=NjU2Njgx&templatePurpose=V0VC&sizeUnit=UFg%3D&dpi=OTY%3D
 
 
 
